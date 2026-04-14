@@ -1,0 +1,125 @@
+{
+  "event": {
+    "name": "hack26",
+    "slug": "hack26",
+    "repo": "hack26",
+    "topics": [
+      "solution-centre",
+      "hack26",
+      "python",
+      "azure",
+      "power-bi",
+      "github",
+      "hackathon",
+      "innovation",
+      "data",
+      "artificial-intelligence",
+      "prototyping",
+      "collaboration",
+      "challenge1",
+      "large-language-models",
+      "machine-learning",
+      "natural-language-processing",
+      "risk-management",
+      "tacit-knowledge",
+      "heuristics",
+      "project-risk"
+    ],
+    "technologies": [
+      "python",
+      "azure",
+      "power-bi",
+      "github",
+      "large-language-models",
+      "machine-learning",
+      "natural-language-processing",
+      "streamlit",
+      "reportlab",
+      "pandas",
+      "microsoft-excel",
+      "dataverse",
+      "power-apps",
+      "power-automate",
+      "copilot-studio",
+      "jupyter",
+      "google-gemini",
+      "openpyxl",
+      "fuzzywuzzy",
+      "json",
+      "microsoft-copilot",
+      "office-365",
+      "project-scheduling-tools",
+      "microsoft-office",
+      "primavera-p6",
+      "document-analysis",
+      "knowledge-bases",
+      "search",
+      "pdfplumber",
+      "sentence-transformers"
+    ]
+  },
+  "visibility": {
+    "event_repo": "public",
+    "team_repos": "public"
+  },
+  "repos": [
+    {
+      "type": "team",
+      "challenge_name": "Risk Insight Ignition: Making Tacit Knowledge Tangible",
+      "challenge_description": "This challenge, presented by Thales, focuses on improving project risk management by capturing and applying subject matter expert (SME) heuristics that are typically tacit and inconsistently recorded. Teams explore how large language models and related AI techniques can codify SME insight, apply it to existing risk registers, and enhance the quality, consistency and usefulness of risk identification and mitigation data, with an emphasis on learning and refinement through expert feedback.",
+      "challenge_slug": "challenge1",
+      "team_name": "Jim-E",
+      "team_slug": "a",
+      "name": "hack26-jim-e",
+      "child_repo_path": "submissions/hack26-challenge1-a",
+      "url": "https://github.com/Projecting-Success-Solutions-Portal/hack26-jim-e.git",
+      "description": "The team built Jim\u2011E, an interactive AI\u2011assisted risk review tool that applies SME heuristics to project risk entries. Using a lightweight Streamlit interface and encoded heuristic rules, the solution helps users identify weak risks and mitigations, capture structured feedback, and generate clear audit\u2011ready reports.",
+      "key_outcomes": "Improves the consistency and quality of risk register entries by systematically applying SME heuristics; reduces time spent reviewing risks and mitigations; provides clearer evidence trails to support earlier intervention and better risk decisions.",
+      "important_files": [
+        {
+          "path": "jim-e_ui_demo_final.py",
+          "purpose": "Streamlit user interface for capturing risk descriptions, SME agreement and feedback, and generating structured reviews."
+        },
+        {
+          "path": "hassans_brilliance.py",
+          "purpose": "Core application logic for managing submission history and producing PDF risk review reports."
+        },
+        {
+          "path": "Heurisitcs.docx",
+          "purpose": "Documented SME risk heuristics used to assess risk quality and mitigation strength."
+        }
+      ],
+      "required_fields": {
+        "summary": "An AI\u2011assisted risk review tool that makes tacit SME knowledge explicit and reusable.",
+        "problem": "Risk registers often contain vague risks and weak mitigations, with critical SME insight remaining uncaptured.",
+        "approach": "Encode SME heuristics and apply them through a human\u2011in\u2011the\u2011loop Streamlit app that reviews risks and captures structured feedback.",
+        "deliverables": "Working Streamlit application (Jim\u2011E), encoded heuristics set, and automatically generated PDF risk review reports."
+      },
+      "thumbnail_path": "Screenshot 2025-10-22 142554.png",
+      "topics": [
+        "solution-centre",
+        "hack26",
+        "challenge1",
+        "python",
+        "streamlit",
+        "reportlab",
+        "pandas",
+        "large-language-models",
+        "risk-management",
+        "heuristics",
+        "tacit-knowledge",
+        "data-quality",
+        "project-risk",
+        "human-in-the-loop"
+      ],
+      "technologies": [
+        "python",
+        "streamlit",
+        "reportlab",
+        "pandas",
+        "large-language-models"
+      ],
+      "members": []
+    }
+  ]
+}
